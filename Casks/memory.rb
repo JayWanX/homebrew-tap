@@ -10,21 +10,21 @@ cask "memory" do
 
   on_macos do
     on_arm do
-      sha256 "1a7c85efca5c99ebb83e4154eb13b6b85102ae16127d4afeb72439d92c5835ef"
+      sha256 "ddb3d15a3eed04d40a38fa11090cbad1c5572f1ad8fbf36aa2502f8261d340de"
       url "https://github.com/JayWanX/memory/releases/download/v#{version}/memory_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "9bc58798cf10fdb0e7580f11ce2e803e9206e257fd48ec41c5194e033b4f898e"
+      sha256 "38cce896f88991e442e6e5a79ddf7e7d9fd707cad2b07c81f6a2f4da37388c0b"
       url "https://github.com/JayWanX/memory/releases/download/v#{version}/memory_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "93855fe76e474df533c2526f0ef93302cf7fb623d081d677f8742e118ccedee7"
+      sha256 "d2f80c1eb9fad5fc30f5ade889d3a24efdd637bc97167580bed3ceb3df493a58"
       url "https://github.com/JayWanX/memory/releases/download/v#{version}/memory_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "328552f0ab2ee674318545602f345f9f638e32770046fd448b1b3d865537ec21"
+      sha256 "1eb8fb55b7fbdc17948b7e8a4d18ae893d973485c7d3d67610ef9a613ad2e237"
       url "https://github.com/JayWanX/memory/releases/download/v#{version}/memory_#{version}_linux_amd64.tar.gz"
     end
   end
